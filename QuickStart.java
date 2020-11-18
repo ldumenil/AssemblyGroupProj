@@ -40,12 +40,20 @@ class QuickStart {
         switch (menu_selection) {
             case "1":
                 System.out.println("You selected 1");
+                // TODO: Sam
+                // TODO: listing out sql file (all classes)
                 break;
             case "2":
                 System.out.println("You selected 2");
+                // TODO: Emily
+                // PUsh class to sql file
                 break;
             case "3":
                 System.out.println("You selected 3");
+                // TODO Full logic of
+                // assigning point values to keywords
+                // and filling in schedule of what is online and
+                // what is in person
                 break;
             case "4":
                 System.out.println("You selected 4");
