@@ -42,6 +42,12 @@ class QuickStart {
                 System.out.println("You selected 1");
                 // TODO: Sam
                 // TODO: listing out sql file (all classes)
+                try {
+                    DatabaseConnection.query("SELECT * FROM Classes");
+                }
+                catch(Exception e){
+                    e.printStackTrace();
+                }
                 break;
             case "2":
                 System.out.println("You selected 2");
